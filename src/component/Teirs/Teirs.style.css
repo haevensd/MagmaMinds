@@ -1,0 +1,158 @@
+.Teirs {
+    padding: 100px 0;
+    min-height: 870px;
+}
+
+.Teirs-inner {
+    h1 {
+        font-size: 32px;
+        min-width: 1570px;
+    }
+
+        
+    a {
+        text-decoration: underline;
+        color: #7881ff;
+        cursor: pointer;
+    }
+}
+
+.teirs-list-parent {
+    display: flex;
+    margin: 50px 0;
+    flex-direction: column;
+}
+
+.teirs-list {
+    display: flex;
+    margin:auto;
+
+    .list-item {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.teir-note {
+    margin: 100px 0;
+}
+
+.item-upper {
+    /* border: solid 1px black; */
+    padding: 50px 165px;
+    box-sizing: border-box;
+    border-right: none;
+    color: white;
+}
+
+.item-lower {
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    /* border: solid 1px black; */
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+}
+
+
+.item-price {
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+
+.list-item.bronze {
+    .item-upper {
+        background-color: goldenrod;
+    }
+    .item-lower {
+        border-left: 0;
+    }
+}
+.list-item.silver {
+    .item-upper {
+        background-color: silver;
+    }
+}
+.list-item.gold {
+    .item-upper {
+        background-color: gold;
+    }
+}
+.list-item.plat {
+    .item-upper {
+        background-color: rgb(222, 236, 236);
+        color: black;
+    }
+}
+
+.split-text-container {
+    display: flex;
+    font-size: 5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    overflow: hidden;
+}
+
+.text-part {
+    display: inline-block;
+    position: relative;
+    transform: translateX(0);
+    animation-duration: 1.95s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+.text-part.left:not(.animate) {
+    transform: translateX(-200%);
+}
+
+.text-part.left.animate {
+    animation-name: slide-in-left;
+}
+
+.text-part.right:not(.animate) {
+    transform: translateX(200%);
+}
+
+.text-part.right.animate {
+    animation-name: slide-in-right;
+}
+
+.text-part.left-inner:not(.animate) {
+    transform: translateX(-100%);
+}
+
+.text-part.left-inner.animate {
+    animation-name: slide-in-left;
+    animation-duration:0.9s;
+}
+
+.text-part.right-inner:not(.animate) {
+    transform: translateX(100%);
+}
+
+.text-part.right-inner.animate {
+    animation-name: slide-in-right;
+    animation-duration:0.9s;
+}
+
+@keyframes slide-in-left {
+    0% {
+        transform: translateX(-200%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-in-right {
+    0% {
+        transform: translateX(200%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

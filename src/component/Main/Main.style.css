@@ -1,0 +1,10 @@
+.Main {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: rgb(238 245 245);
+}
+
+.Main-content {
+   
+}
