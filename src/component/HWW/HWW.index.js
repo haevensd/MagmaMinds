@@ -44,16 +44,16 @@ const HWW = () => {
                             </div>
                         </div>
                         {/* Arrow here, fade-in first (1-2 second delay) */}
-                        <img className={`next-step ${isVisible ? 'animate' : ''}`} src={require(`../../asset/image/fast-forward.png`)} height={50} width={50} />
-                        <div className={`list-item ${isVisible ? 'animate' : ''}`} style={{display:'flex', flexDirection: 'column', alignItems: 'center'}}>
+                        <img className={`next-step ${isVisible ? 'animate' : ''}`} src={require(`../../asset/image/fast-forward.png`)} height={40} width={40}  style={{marginTop: ''}}/>
+                        <div className={`list-item ${isVisible ? 'animate' : ''}`} style={{display:'flex', flexDirection: 'column', alignItems: 'center', marginTop: '-5px'}}>
                             <img alt="truck-visual" src={require(`../../asset/image/delivery.png`)} height={50} width={50}  />
-                            <div>
+                            <div >
                                 <h3>Ship Your Product</h3>
                                 <p>Ship out your product to creators to make content.</p>
                             </div>
                         </div>
                         {/* Second arrow here, fade-in after 2-3 second delay */}
-                        <img className={`next-step delayed ${isVisible ? 'animate' : ''}`} src={require(`../../asset/image/fast-forward.png`)} height={50} width={50} />
+                        <img className={`next-step delayed ${isVisible ? 'animate' : ''}`} src={require(`../../asset/image/fast-forward.png`)} height={40} width={40}  style={{marginTop: ''}}/>
                         <div className={`list-item ${isVisible ? 'animate' : ''}`}>
                         <img alt="money-visual" src={require(`../../asset/image/coin.png`)} height={50} width={50}  />
                             <div>

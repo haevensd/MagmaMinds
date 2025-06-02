@@ -40,11 +40,12 @@
 
 .list {
     display: flex;
-    /* gap: 30px; */
+    gap: 30px;
     max-width: 100%;
     /* margin: auto; */
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 50px;
 }
 .list-item.animate {
     animation: 1.25s fadeInDown;
@@ -65,8 +66,9 @@
         text-align: center;
     }
     p {
-        max-width: 65%;
+        max-width: 85%;
         margin: auto;
+        font-family: Open Sans;
     }
     div {
         max-width: 350px;
