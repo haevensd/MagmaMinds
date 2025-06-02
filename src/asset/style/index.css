@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Alborello';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Alborello'), url('../font/Alberobello\ Serif\ Regular.woff') format('woff');
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -14,7 +21,7 @@ code {
 
 .block {
   display: flex;
-  height: 770px;
+  height: 670px;
 }
 
 .block-content {
@@ -29,14 +36,18 @@ code {
   color: white;
   background-color: gold;
   border: none;
+  border: none !important;
   font-size: 23px;
+  font-family: Montserrat;
   cursor: pointer;
   transition: ease-in-out 0.23s;
-  margin: 100px auto;
+  margin: 50px auto;
+  margin-bottom: 0;
   font-weight: bold;
 }
 
 .intro-call-btn:hover {
   transform: scale(1.105);
-
+  
+  border: none !important;
 }

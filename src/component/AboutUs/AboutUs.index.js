@@ -5,28 +5,28 @@ const AboutUs = () => {
     const [isVisible, setIsVisible] = useState(false);
     const elementRef = useRef(null);
   
-    useEffect(() => {
-      const observer = new IntersectionObserver(
-        ([entry]) => {
-          setIsVisible(entry.isIntersecting);
-        },
-        {
-          rootMargin: '0px', // No margin
-          threshold: 0.5 // Trigger when 50% of the element is visible
-        }
-      );
+    // useEffect(() => {
+    //   const observer = new IntersectionObserver(
+    //     ([entry]) => {
+    //       setIsVisible(entry.isIntersecting);
+    //     },
+    //     {
+    //       rootMargin: '0px', // No margin
+    //       threshold: 0.5 // Trigger when 50% of the element is visible
+    //     }
+    //   );
   
-      const elementsToAnimate = document.querySelectorAll(
-        ".about-list-item",
-      );
+    //   const elementsToAnimate = document.querySelectorAll(
+    //     ".about-list-item",
+    //   );
   
-      elementsToAnimate.forEach((el) => observer.observe(el));
+    //   elementsToAnimate.forEach((el) => observer.observe(el));
   
-      return () => {
-        elementsToAnimate.forEach((el) => observer.unobserve(el));
-        observer.disconnect();
-      }
-    }, []);
+    //   return () => {
+    //     elementsToAnimate.forEach((el) => observer.unobserve(el));
+    //     observer.disconnect();
+    //   }
+    // }, []);
 
     return (
         <div className='AboutUs'>

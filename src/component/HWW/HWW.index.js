@@ -7,28 +7,28 @@ const HWW = () => {
     const [isVisible, setIsVisible] = useState(false);
     const elementRef = useRef(null);
   
-    useEffect(() => {
-      const observer = new IntersectionObserver(
-        ([entry]) => {
-          setIsVisible(entry.isIntersecting);
-        },
-        {
-          rootMargin: '0px', // No margin
-          threshold: 0.75 // Trigger when 50% of the element is visible
-        }
-      );
+    // useEffect(() => {
+    //   const observer = new IntersectionObserver(
+    //     ([entry]) => {
+    //       setIsVisible(entry.isIntersecting);
+    //     },
+    //     {
+    //       rootMargin: '0px', // No margin
+    //       threshold: 0.75 // Trigger when 50% of the element is visible
+    //     }
+    //   );
   
-      const elementsToAnimate = document.querySelectorAll(
-        ".list-item", ".next-step", "intro-call-btn", "HWW-header"
-      );
+    //   const elementsToAnimate = document.querySelectorAll(
+    //     ".list-item", ".next-step", "intro-call-btn", "HWW-header"
+    //   );
   
-      elementsToAnimate.forEach((el) => observer.observe(el));
+    //   elementsToAnimate.forEach((el) => observer.observe(el));
   
-      return () => {
-        elementsToAnimate.forEach((el) => observer.unobserve(el));
-        observer.disconnect();
-      }
-    }, []);
+    //   return () => {
+    //     elementsToAnimate.forEach((el) => observer.unobserve(el));
+    //     observer.disconnect();
+    //   }
+    // }, []);
 
     return (
         <div className='HWW block'>

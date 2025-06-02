@@ -6,7 +6,7 @@
 .Teirs-inner {
     h1 {
         font-size: 32px;
-        min-width: 1570px;
+        /* min-width: 1570px; */
     }
 
         
@@ -39,9 +39,10 @@
 
 .item-upper {
     /* border: solid 1px black; */
-    padding: 50px 165px;
+    padding: 50px 120px;
     box-sizing: border-box;
     border-right: none;
+    text-align: center;
     color: white;
 }
 

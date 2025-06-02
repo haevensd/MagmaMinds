@@ -1,5 +1,5 @@
 .AboutUs {
-    padding: 200px;
+    padding: 100px;
     background-color: white;
 
     .intro-call-btn {
@@ -19,6 +19,17 @@
         font-size: 32px;
         margin-left: 120px;
         margin:50px 0;
+      }
+
+      h2 {
+
+        font-family: Montserrat;
+      }
+
+    p {
+      font-size: 14px;
+      font-family: Open Sans;
+      /* font-weight: 300; */
     }
 }   
 
