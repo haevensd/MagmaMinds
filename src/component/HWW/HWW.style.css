@@ -135,3 +135,43 @@
 .intro-call-btn.animate {
     animation: pulse 2.1s !important;
 }
+
+@media (max-width: 768px) {
+    .HWW {
+        min-height: 1300px;
+    }
+    .list {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .list-item {
+        max-width: 90%;
+        text-align: center;
+    }
+
+    .list-item div {
+        max-width: 100%;
+    }
+
+    .next-step,
+    .next-step.delayed {
+        transform: rotate(90deg);
+        margin: 10px 0;
+    }
+
+    .HWW-inner {
+        padding: 60px 20px;
+    }
+
+    .HWW-header {
+        text-align: center;
+        font-size: 26px;
+    }
+
+    .intro-call-btn {
+        width: 100%;
+        max-width: 320px;
+    }
+}

@@ -94,3 +94,43 @@
 .intro-call-btn.animate {
   animation: pulse 0.9s;
 }
+
+@media screen and (max-width: 768px) {
+  .AboutUs {
+    padding: 60px 16px;
+  }
+
+  .AboutUs-inner h1 {
+    font-size: 24px;
+    margin: 24px 0;
+    text-align: center;
+  }
+
+  .about-list {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .about-list-item {
+    text-align: center;
+    padding: 0 8px;
+  }
+
+  .about-list-item h2 {
+    font-size: 18px;
+    margin-top: 16px;
+  }
+
+  .about-list-item p {
+    font-size: 14px;
+  }
+
+  .intro-call-btn {
+    display: block;
+    margin: 40px auto 0 auto;
+    padding: 12px 24px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 320px;
+  }
+}

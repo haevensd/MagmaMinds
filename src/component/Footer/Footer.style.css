@@ -32,7 +32,16 @@
     
     h4 {
         font-size: 18px;
+        line-height: 32px;
+
         font-family: Montserrat;
     }
 }
 
+
+
+@media screen and (max-width: 768px) {  
+  h4 {
+    padding: 20px;
+  }
+}

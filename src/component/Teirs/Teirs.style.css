@@ -157,3 +157,47 @@
         transform: translateX(0);
     }
 }
+
+@media screen and (max-width: 768px) {
+    .Teirs {
+      padding: 60px 16px;
+      min-height: 1800px;
+    }
+  
+    .Teirs-inner h1 {
+      font-size: 24px;
+      text-align: center;
+    }
+  
+    .teirs-list {
+      flex-direction: column;
+      gap: 24px;
+    }
+  
+    .list-item {
+      width: 100%;
+      padding: 0 8px;
+    }
+  
+    .item-upper {
+      padding: 32px 16px;
+      font-size: 20px;
+    }
+  
+    .item-lower {
+      font-size: 14px;
+      padding: 12px 0;
+    }
+  
+    .item-price {
+      text-align: center;
+      font-size: 18px;
+    }
+  
+    .teir-note {
+      margin: 60px 0;
+      text-align: center;
+      font-size: 14px;
+    }
+  }
+  
