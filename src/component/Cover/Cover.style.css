@@ -1,6 +1,7 @@
 .Cover {
     /* background-color: gold; */
     background-color: black;
+    overflow: hidden;
     /* height: 1000px; */
 }
 
