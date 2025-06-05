@@ -97,13 +97,14 @@
 
 @media screen and (max-width: 768px) {
   .AboutUs {
-    padding: 60px 16px;
+    padding: 30px 16px;
   }
 
   .AboutUs-inner h1 {
     font-size: 24px;
     margin: 24px 0;
     text-align: center;
+    margin-bottom: 30px;
   }
 
   .about-list {
@@ -125,6 +126,9 @@
     font-size: 14px;
   }
 
+  .AboutUs .intro-call-btn {
+    margin-top: 40px !important;
+  }
   .intro-call-btn {
     display: block;
     margin: 40px auto 0 auto;
