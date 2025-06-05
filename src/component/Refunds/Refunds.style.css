@@ -29,7 +29,7 @@
 
 
 @media screen and (max-width: 768px) {  
-    p {
+    .Refunds-inner p {
         max-width: 75% !important;
     }
 }
