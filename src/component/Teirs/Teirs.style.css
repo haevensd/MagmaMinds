@@ -6,7 +6,12 @@
 .Teirs-inner {
     h1 {
         font-size: 32px;
+        font-family: Montserrat;
         /* min-width: 1570px; */
+    }
+
+    p {
+        font-family: Open Sans;
     }
 
         
@@ -44,11 +49,13 @@
     border-right: none;
     text-align: center;
     color: white;
+    font-family: Open Sans;
 }
 
 .item-lower {
     box-sizing: border-box;
     text-align: center;
+    font-family: Open Sans;
     padding: 20px 0;
     width: 100%;
     /* border: solid 1px black; */
