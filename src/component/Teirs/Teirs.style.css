@@ -19,6 +19,7 @@
         text-decoration: underline;
         color: #7881ff;
         cursor: pointer;
+        font-family: Open Sans;
     }
 }
 
@@ -168,7 +169,7 @@
 @media screen and (max-width: 768px) {
     .Teirs {
       padding: 60px 16px;
-      min-height: 1800px;
+      min-height: 1890px;
     }
   
     .Teirs-inner h1 {
