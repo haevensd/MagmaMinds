@@ -26,3 +26,10 @@
         margin: auto;
     }
 }
+
+
+@media screen and (max-width: 768px) {  
+    p {
+        max-width: 75% !important;
+    }
+}
