@@ -208,6 +208,7 @@ body {
     /* color: black; */
     font-size: 21px;
     padding: 21px;
+    padding-top: 0;
     /* font-family: /; */
   }
 }
