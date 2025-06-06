@@ -48,7 +48,7 @@ const Teirs = () => {
                                     <span>30 videos / month</span> <br />
                                 </div>
                                 <div className='item-lower'>
-                                    <span>30 hours of live-showing / month</span> <br />
+                                    <span>30 hours of live / month</span> <br />
                                 </div>
                                 <div className='item-lower'>
                                     <span>High-quality audiences</span> <br />
@@ -81,7 +81,7 @@ const Teirs = () => {
                                     <span>90 videos / month</span><br />
                                 </div>
                                 <div className='item-lower'>
-                                    <span>60 hours of live-showing / month</span><br />
+                                    <span>60 hours of live / month</span><br />
                                 </div>
                                 <div className='item-lower'>
                                     <span>High-quality audiences</span><br />
@@ -110,7 +110,7 @@ const Teirs = () => {
                                     <span>150 videos / month</span><br />
                                 </div>
                                 <div className='item-lower'>
-                                    <span>90 hours of live-showing / month</span><br />
+                                    <span>90 hours of live / month</span><br />
                                 </div>
                                 <div className='item-lower'>
                                     <span>High-quality audiences</span><br />
@@ -141,7 +141,7 @@ const Teirs = () => {
                                     <span>300 videos / month</span><br />
                                 </div>
                                 <div className='item-lower'>
-                                    <span>120 hours of live-showing / month</span><br />
+                                    <span>120 hours of live / month</span><br />
                                 </div>
                                 <div className='item-lower'>
                                     <span>High-quality audiences</span><br />
