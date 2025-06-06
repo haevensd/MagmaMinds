@@ -36,7 +36,7 @@ const Teirs = () => {
                     {/* list-item from left and right abruptly collide from far 
                         with static center item, on reveal
                         */}
-                    <p>MagmaMinds offers four teirs for content creation. Each video is required at least 1,000 views to count toward monthly quota, with sales guaranteed or your money back.</p>
+                    <p>MagmaMinds offers four teirs for content creation. Each video is required at least 10,000 views to count toward monthly quota, with sales guaranteed or your money back.</p>
 
                     <div className='teirs-list-parent'>
                         <div className='teirs-list'>
