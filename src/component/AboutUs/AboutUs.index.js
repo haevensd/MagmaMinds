@@ -45,7 +45,7 @@ const AboutUs = () => {
                             <h2>Our Values</h2>
                             <p>At MagmaMinds we value customer satisfaction over everything.
 If our clients are not happy, we aren't happy. That's why
-we offer Money-Back Guarantee on all of our Teir Offerings-
+we offer Money Back Guarantee on all of our Teir Offerings-
 So you don't have to worry about any risk involved. We take care of you,
 so you can take care of your business.</p>
                         </div>
@@ -57,7 +57,7 @@ family-like followings-- loyal followers with a
 tight-knit community are of the highest quality
 for social media marketing. We find the best results
 don't come from grossly large following count, but actually from
-a small-medium community where trust is already built. </p>
+small-medium size communities where trust is already built. </p>
                         </div>
                         <div className={`about-list-item ${isVisible ? 'animate' : ''} fadeInUp-animation-3`}>
                         <img style={{margin: 'auto'}} alt='handshake visual' src={require('../../asset/image/handshake.png')}  height={50} width={50} />

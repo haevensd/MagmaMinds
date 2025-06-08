@@ -36,8 +36,9 @@ const Teirs = () => {
                     {/* list-item from left and right abruptly collide from far 
                         with static center item, on reveal
                         */}
-                    <p>MagmaMinds offers four teirs for content creation. Each video is required at least 10,000 views to count toward monthly quota, with sales guaranteed or your money back.</p>
-
+                    <p>MagmaMinds offers four teirs for content creation. Each video over 10,000 views counts toward monthly quota, with sales guaranteed or your money back. </p>
+                    
+                    {/* <p></p> */}
                     <div className='teirs-list-parent'>
                         <div className='teirs-list'>
                             <div className={`list-item text-part left bronze ${isVisible ? 'animate' : 'animate'}`}>
@@ -48,7 +49,7 @@ const Teirs = () => {
                                     <span>30 videos / month</span> <br />
                                 </div>
                                 <div className='item-lower'>
-                                    <span>30 hours of live / month</span> <br />
+                                    <span>15 hours of live / month</span> <br />
                                 </div>
                                 <div className='item-lower'>
                                     <span>High-quality audiences</span> <br />
@@ -78,10 +79,10 @@ const Teirs = () => {
                                     Silver
                                 </div>
                                 <div className='item-lower'>
-                                    <span>90 videos / month</span><br />
+                                    <span>50 videos / month</span><br />
                                 </div>
                                 <div className='item-lower'>
-                                    <span>90 hours of live / month</span><br />
+                                    <span>30 hours of live / month</span><br />
                                 </div>
                                 <div className='item-lower'>
                                     <span>High-quality audiences</span><br />
@@ -107,10 +108,10 @@ const Teirs = () => {
                                     Gold
                                 </div>
                                 <div className='item-lower'>
-                                    <span>150 videos / month</span><br />
+                                    <span>90 videos / month</span><br />
                                 </div>
                                 <div className='item-lower'>
-                                    <span>90 hours of live / month</span><br />
+                                    <span>45 hours of live / month</span><br />
                                 </div>
                                 <div className='item-lower'>
                                     <span>High-quality audiences</span><br />
@@ -138,10 +139,10 @@ const Teirs = () => {
                                     Platinum
                                 </div>
                                 <div className='item-lower'>
-                                    <span>300 videos / month</span><br />
+                                    <span>150 videos / month</span><br />
                                 </div>
                                 <div className='item-lower'>
-                                    <span>150 hours of live / month</span><br />
+                                    <span>75 hours of live / month</span><br />
                                 </div>
                                 <div className='item-lower'>
                                     <span>High-quality audiences</span><br />
@@ -165,9 +166,113 @@ const Teirs = () => {
                                 </div>
                             </div>
                         </div>
+                    {/* <h1 style={{marginTop: '100px'}}>Teir Offerings  - Live Only</h1>
+        
+                    <div className='teirs-list-parent'>
+                        <div className='teirs-list'>
+                            <div className={`list-item text-part left bronze ${isVisible ? 'animate' : 'animate'}`}>
+                                <div className='item-upper'>
+                                    Bronze
+                                </div>
+                                <div className='item-lower'>
+                                    <span>15 hours of live / month</span> <br />
+                                </div>
+                                <div className='item-lower'>
+                                    <span>High-quality audiences</span> <br />
+                                </div>
+                                <div className='item-lower'>
+                                    <span>Choice creators</span> <br />
+                                </div>
+                                <div className='item-lower'>
+                                    <span>First-class support</span> <br />
+                                </div>
+                                <div className='item-lower'>
+                                    <span>Guaranteed sales*</span> <br />
+                                </div>
+                            
+                                <div className='item-price'>
+                                    <b>$500</b>
+                                </div>
+                            </div>
+                            <div className={`list-item text-part left-inner silver ${isVisible ? 'animate' : 'animate'}`}>
+                                <div className='item-upper'>
+                                    Silver
+                                </div>
+                                <div className='item-lower'>
+                                    <span>30 hours of live / month</span><br />
+                                </div>
+                                <div className='item-lower'>
+                                    <span>High-quality audiences</span><br />
+                                </div>
+                                <div className='item-lower'>
+                                    <span>Choice creators</span><br />
+                                </div>
+                                <div className='item-lower'>
+                                    <span>First-class support</span><br />
+                                </div>
+                                <div className='item-lower'>
+                                    <span>Guaranteed sales*</span><br />
+                                </div>
+
+                                <div className='item-price'>
+                                    <b style={{textDecoration:''}}>$1200</b>
+                                </div>
+                            </div>
+                            <div className={`list-item text-part right-inner gold ${isVisible ? 'animate' : 'animate'}`}>
+                                <div className='item-upper'>
+                                    Gold
+                                </div>
+                                <div className='item-lower'>
+                                    <span>45 hours of live / month</span><br />
+                                </div>
+                                <div className='item-lower'>
+                                    <span>High-quality audiences</span><br />
+                                </div>
+                                <div className='item-lower'>
+                                    <span>Choice creators</span><br />
+                                </div>
+                                <div className='item-lower'>
+                                    <span>First-class support</span><br />
+                                </div>
+                                <div className='item-lower'>
+                                    <span>Guaranteed sales*</span><br />
+                                </div>
+                                <div className='item-price'>
+                                    <b>$1800</b>
+                                </div>
+                            </div>
+                            <div className={`list-item text-part right plat ${isVisible ? 'animate' : 'animate'}`}>
+                                <div className='item-upper'>
+                                    Platinum
+                                </div>
+                        
+                                <div className='item-lower'>
+                                    <span>75 hours of live / month</span><br />
+                                </div>
+                                <div className='item-lower'>
+                                    <span>High-quality audiences</span><br />
+                                </div>
+                                <div className='item-lower'>
+                                    <span>Choice creators</span><br />
+                                </div>
+                                <div className='item-lower'>
+                                    <span>First-class support</span><br />
+                                </div>
+                                <div className='item-lower'>
+                                    <span>Guaranteed sales*</span><br />
+                                </div>
+                             
+                                
+                                <div className='item-price'>
+                                    <b>$2200</b>
+                                </div>
+                            </div>
+                        </div>
+                        </div> */}
 
                         <div className='teir-note' >
-                            <a href="#money-back-guarantee">*See Money-Back Guarentee section for more information</a>
+                            <p>Live-only pricing and custom pricing solutions available for your companies unique needs</p>
+                            <a href="#money-back-guarantee">*See Money Back Guarentee section for more information.</a>
                         </div>
                     </div>
 
