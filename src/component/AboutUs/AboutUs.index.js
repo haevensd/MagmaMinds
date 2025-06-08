@@ -43,10 +43,10 @@ const AboutUs = () => {
                         <div className={`about-list-item ${isVisible ? 'animate' : ''} fadeInUp-animation-1`}>
                         <img style={{margin: 'auto'}} alt='shining star visual' src={require('../../asset/image/star.png')} height={50} width={50} />
                             <h2>Our Values</h2>
-                            <p>At MagmaMinds we value customer satisfaction over everything.
-If our clients are not happy, we aren't happy. That's why
-we offer Money Back Guarantee on all of our Teir Offerings-
-So you don't have to worry about any risk involved. We take care of you,
+                            <p>At MagmaMinds we value customer satisfaction over all.
+If our clients aren't happy, we are not happy. That's why
+we offer Money Back Guarantee on all of our plans—
+so there's no risk involved. We take care of you,
 so you can take care of your business.</p>
                         </div>
                         <div className={`about-list-item ${isVisible ? 'animate' : ''} fadeInUp-animation-2`}>
@@ -55,8 +55,8 @@ so you can take care of your business.</p>
                             <p>MagmaMinds loves working with creators who have
 family-like followings-- loyal followers with a
 tight-knit community are of the highest quality
-for social media marketing. We find the best results
-don't come from grossly large following count, but actually from
+for social media marketing. We find the best results actually
+don't come from a grossly large following count, but from
 small-medium size communities where trust is already built. </p>
                         </div>
                         <div className={`about-list-item ${isVisible ? 'animate' : ''} fadeInUp-animation-3`}>
