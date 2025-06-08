@@ -1,4 +1,4 @@
-import logo from '../../asset/image/logo.svg';
+// import logo from '../../asset/image/logo.svg';
 import './Main.style.css';
 import Nav from '../../.trash/Nav/Nav.index';
 import Footer from '../Footer/Footer.index';
