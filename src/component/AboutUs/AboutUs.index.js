@@ -56,7 +56,7 @@ so you can take care of your business.</p>
 family-like followings-- loyal followers with a
 tight-knit community are of the highest quality
 for social media marketing. We find the best results actually
-don't come from a grossly large following count, but from
+don't come from a grossly large following count, but actually from
 small-medium size communities where trust is already built. </p>
                         </div>
                         <div className={`about-list-item ${isVisible ? 'animate' : ''} fadeInUp-animation-3`}>
@@ -68,7 +68,7 @@ If you're a company that is looking for a long-term relationship with first-clas
 and unbeatable standards, we are for you.</p>
                         </div>
                     </div>
-                    <button className={`intro-call-btn ${isVisible ? '' : ''}`}>Schedule an Intro Call Today!</button>
+                    <a style={{textDecoration: 'none'}} target='blank' href="https://calendly.com/magmaminds/30min" className={`intro-call-btn ${isVisible ? '' : ''}`}>Schedule an Intro Call Today!</a>
 
                 </div>
             </div>

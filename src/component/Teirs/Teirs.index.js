@@ -68,7 +68,7 @@ const Teirs = () => {
                                 </div> */}
                             
                                 <div className='item-price'>
-                                    <b>$750</b>
+                                    <b>$1050</b>
 
                                     {/* <b>$560</b> */}
                                     {/* <b>$375</b> */}
@@ -79,7 +79,7 @@ const Teirs = () => {
                                     Silver
                                 </div>
                                 <div className='item-lower'>
-                                    <span>50 videos / month</span><br />
+                                    <span>60 videos / month</span><br />
                                 </div>
                                 <div className='item-lower'>
                                     <span>30 hours of live / month</span><br />
@@ -98,7 +98,7 @@ const Teirs = () => {
                                 </div>
 
                                 <div className='item-price'>
-                                    <b style={{textDecoration:''}}>$1800</b>
+                                    <b style={{textDecoration:''}}>$2075</b>
                                     {/* <b style={{textDecoration:''}}>$1500</b> */}
                                     {/* <b style={{marginLeft: '10px'}}>$1800</b> */}
                                 </div>
@@ -111,7 +111,7 @@ const Teirs = () => {
                                     <span>90 videos / month</span><br />
                                 </div>
                                 <div className='item-lower'>
-                                    <span>45 hours of live / month</span><br />
+                                    <span>60 hours of live / month</span><br />
                                 </div>
                                 <div className='item-lower'>
                                     <span>High-quality audiences</span><br />
@@ -131,7 +131,7 @@ const Teirs = () => {
                                 
                                 <div className='item-price'>
                                     {/* <b>$1800</b> */}
-                                    <b>$2400</b>
+                                    <b>$3250</b>
                                 </div>
                             </div>
                             <div className={`list-item text-part right plat ${isVisible ? 'animate' : 'animate'}`}>
@@ -139,10 +139,10 @@ const Teirs = () => {
                                     Platinum
                                 </div>
                                 <div className='item-lower'>
-                                    <span>150 videos / month</span><br />
+                                    <span>180 videos / month</span><br />
                                 </div>
                                 <div className='item-lower'>
-                                    <span>75 hours of live / month</span><br />
+                                    <span>100 hours of live / month</span><br />
                                 </div>
                                 <div className='item-lower'>
                                     <span>High-quality audiences</span><br />
@@ -162,7 +162,7 @@ const Teirs = () => {
                                 
                                 <div className='item-price'>
                                     {/* <b>$2850</b> */}
-                                    <b>$3800</b>
+                                    <b>$5550</b>
                                 </div>
                             </div>
                         </div>
@@ -271,7 +271,7 @@ const Teirs = () => {
                         </div> */}
 
                         <div className='teir-note' >
-                            <p>Live-only pricing and custom pricing solutions available for your companies unique needs</p>
+                            <p>Live-only pricing and custom pricing solutions available per your company's unique requirements</p>
                             <a href="#money-back-guarantee">*See Money Back Guarentee section for more information.</a>
                         </div>
                     </div>
