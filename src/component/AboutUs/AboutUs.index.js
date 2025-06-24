@@ -54,10 +54,8 @@ so you can take care of your business.</p>
                             <h2>Our Approach</h2>
                             <p>MagmaMinds loves working with creators who have
 family-like followings-- loyal followers with a
-tight-knit community are of the highest quality
-for social media marketing. We find the best results actually
-don't come from a grossly large following count, but actually from
-small-medium size communities where trust is already built. </p>
+tight-knit community encourage video virality and are of the highest quality
+for driving sales. </p>
                         </div>
                         <div className={`about-list-item ${isVisible ? 'animate' : ''} fadeInUp-animation-3`}>
                         <img style={{margin: 'auto'}} alt='handshake visual' src={require('../../asset/image/handshake.png')}  height={50} width={50} />

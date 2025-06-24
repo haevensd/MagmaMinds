@@ -64,7 +64,7 @@ const HWW = () => {
 
                     </div>
                     {/* add pulse animation here */}
-                    <a target='blank' style={{textDecoration: 'none'}} href="https://calendly.com/magmaminds/30min" className={`intro-call-btn ${isVisible ? 'animate' : ''}`}>Schedule an Intro Call Today!</a>
+                    <a target='blank' style={{textDecoration: 'none', marginTop: '20px'}} href="https://calendly.com/magmaminds/30min" className={`intro-call-btn ${isVisible ? 'animate' : ''}`}>Schedule an Intro Call Today!</a>
                 </div>
             </div>
         </div>
