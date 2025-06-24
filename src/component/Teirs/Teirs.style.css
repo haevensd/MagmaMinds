@@ -1,6 +1,8 @@
 .Teirs {
     padding: 100px 0;
     min-height: 1000px;
+    
+    overflow: scroll;
 }
 
 .Teirs-inner {
@@ -179,6 +181,9 @@
       text-align: center;
     }
   
+    .teirs-list-parent {
+        max-width: 100%;
+    }
     .teirs-list {
       flex-direction: column;
       gap: 24px;

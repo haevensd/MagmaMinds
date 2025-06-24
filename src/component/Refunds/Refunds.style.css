@@ -37,6 +37,7 @@
     }
     p {
         max-width: 81% !important;
+        line-height: 32px;
     }
     }
 }
