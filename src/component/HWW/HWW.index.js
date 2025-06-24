@@ -49,7 +49,7 @@ const HWW = () => {
                             <img alt="truck-visual" src={require(`../../asset/image/delivery.png`)} height={50} width={50}  />
                             <div >
                                 <h3>Ship Your Product</h3>
-                                <p>Ship out your product to creators to make content.</p>
+                                <p>Ship out your product to creators for making content.</p>
                             </div>
                         </div>
                         {/* Second arrow here, fade-in after 2-3 second delay */}
@@ -58,7 +58,7 @@ const HWW = () => {
                         <img alt="money-visual" src={require(`../../asset/image/coin.png`)} height={50} width={50}  />
                             <div>
                                 <h3>Drive Sales</h3>
-                                <p>Creators post content tagging your page @ handle or submit to you for direct posting <i>et puis</i> sales.</p>
+                                <p>Creators post content tagging your page @ or submit to you directly <i>et puis</i> sales.</p>
                             </div>
                         </div>
 

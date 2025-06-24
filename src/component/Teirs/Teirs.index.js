@@ -36,7 +36,7 @@ const Teirs = () => {
                     {/* list-item from left and right abruptly collide from far 
                         with static center item, on reveal
                         */}
-                    <p>MagmaMinds offers four teirs for content creation. Each video over 10,000 views counts toward monthly quota, with sales guaranteed or your money back. </p>
+                    <p>MagmaMinds offers four teirs for content creation. Each video over 1,000 views counts toward monthly quota, with sales guaranteed or your money back. </p>
                     
                     {/* <p></p> */}
                     <div className='teirs-list-parent'>
@@ -271,7 +271,7 @@ const Teirs = () => {
                         </div> */}
 
                         <div className='teir-note' >
-                            <p>Live-only pricing and custom pricing solutions available per your company's unique requirements</p>
+                            <p>- Video & Live-only / custom pricing solutions available per your company's unique requirements</p>
                             <a href="#money-back-guarantee">*See Money Back Guarentee section for more information.</a>
                         </div>
                     </div>

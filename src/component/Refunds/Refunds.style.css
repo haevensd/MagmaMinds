@@ -31,7 +31,12 @@
 
 
 @media screen and (max-width: 768px) {  
-    .Refunds-inner p {
-        max-width: 75% !important;
+    .Refunds-inner  {
+        h2 {
+        font-size: 32px;
+    }
+    p {
+        max-width: 81% !important;
+    }
     }
 }
