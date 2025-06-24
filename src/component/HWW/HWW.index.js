@@ -40,7 +40,7 @@ const HWW = () => {
                             <img alt="hand-visual" src={require(`../../asset/image/picking.png`)} height={50} width={50} />
                             <div>
                                 <h3>Pick Creators</h3>
-                                <p>Choose from a hand-picked list of creators we match you with chosen best for your target market.</p>
+                                <p>Choose from a hand-picked list of creators we match you with best for your target market.</p>
                             </div>
                         </div>
                         {/* Arrow here, fade-in first (1-2 second delay) */}
@@ -58,7 +58,7 @@ const HWW = () => {
                         <img alt="money-visual" src={require(`../../asset/image/coin.png`)} height={50} width={50}  />
                             <div>
                                 <h3>Drive Sales</h3>
-                                <p>Creators post content tagging your page @ or submit to you directly <i>et puis</i> sales.</p>
+                                <p>Creators post content tagging or linking your product or submit to you directly, <i>et puis</i> sales.</p>
                             </div>
                         </div>
 
