@@ -2,7 +2,8 @@
     padding: 100px 0;
     min-height: 1000px;
     
-    overflow: scroll;
+    overflow-x: scroll;
+    overflow-y: hidden !important;
 }
 
 .Teirs-inner {
@@ -169,10 +170,15 @@
     }
 }
 
+@media screen and (max-width: 468px) {
+    .Teirs {
+        min-height: 2250px;
+    }
+}
 @media screen and (max-width: 768px) {
     .Teirs {
+        min-height: 2100px;
       padding: 60px 16px;
-      min-height: 2200px;
     }
   
     .Teirs-inner h1 {
