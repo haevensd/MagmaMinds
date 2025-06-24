@@ -172,7 +172,7 @@
 @media screen and (max-width: 768px) {
     .Teirs {
       padding: 60px 16px;
-      min-height: 2250px;
+      min-height: 2200px;
     }
   
     .Teirs-inner h1 {
@@ -216,6 +216,8 @@
       text-align: center;
       font-size: 14px;
     }
-    
+  .Teirs-content {
+    margin-top: 0px;
+  }  
   }
   

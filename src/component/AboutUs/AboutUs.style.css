@@ -19,6 +19,8 @@
         font-size: 32px;
         margin-left: 120px;
         margin:50px 0;
+        
+        font-family: Montserrat;
       }
 
       h2 {
@@ -101,10 +103,11 @@
   }
 
   .AboutUs-inner h1 {
-    font-size: 24px;
-    margin: 24px 0;
+    font-size: 32px;
+    margin: 30px 0;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
+
   }
 
   .about-list {
@@ -123,7 +126,7 @@
   }
 
   .about-list-item p {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .AboutUs .intro-call-btn {
