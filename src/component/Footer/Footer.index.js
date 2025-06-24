@@ -35,7 +35,7 @@ const Footer = () => {
                     <h4>So what are you waiting for? Take the step today and see how MagmaMinds can help your business make it to the next level!</h4>
                     <a target='blank' style={{margin:'30px 0', textDecoration:'none'}} className={`intro-call-btn ${isVisible ? 'animate': ''}`}>Schedule an Intro Call Today!</a>
                 </div>
-                <div style={{padding: '20px', color: '#222222 '}}>
+                <div style={{padding: '20px',paddingBottom:'0', color: '#222222 '}}>
                     All rights reserved by MagmaMinds, LLC
                 </div>
             </div>
