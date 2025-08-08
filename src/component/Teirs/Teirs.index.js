@@ -36,9 +36,9 @@ const Teirs = () => {
                     {/* list-item from left and right abruptly collide from far 
                         with static center item, on reveal
                         */}
-                    //<p>MagmaMinds offers three plans. Each video over 1,000 views counts toward monthly quota, with sales guaranteed or your money back. </p>
                     
-                    {/* <p></p> */}
+                    {/*<p>MagmaMinds offers three plans. Each video over 1,000 views counts toward monthly quota, with sales guaranteed or your money back. </p>
+                     */}
                     <div className='teirs-list-parent'>
                         <div className='teirs-list'>
                             
