@@ -59,7 +59,7 @@ tight-knit community of customers that continue coming back. </p>
                         <div className={`about-list-item ${isVisible ? 'animate' : ''} fadeInUp-animation-3`}>
                         <img style={{margin: 'auto'}} alt='handshake visual' src={require('../../asset/image/handshake.png')}  height={50} width={50} />
                             <h2>Our Standards</h2>
-                            <p>MagmaMinds only works with brands we trust. We provide only the highest quality
+                            <p>MagmaMinds only works with brands we trust. We only provide the highest quality
 advertising, which means we are extremely choicey with who we partner.
 If you're a company that is looking for a long-term relationship with first-class support
 and unbeatable standards, we are for you.</p>
