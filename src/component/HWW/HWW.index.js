@@ -57,7 +57,7 @@ const HWW = () => {
                         <div className={`list-item ${isVisible ? 'animate' : ''}`}>
                         <img alt="money-visual" src={require(`../../asset/image/coin.png`)} height={50} width={50}  />
                             <div>
-                                <h3>Drive Sales</h3>
+                                <h3>Drive You Sales</h3>
                                 <p>Customers gravitate towards brands they see often, <i>et puis</i> sales.</p>
                             </div>
                         </div>
