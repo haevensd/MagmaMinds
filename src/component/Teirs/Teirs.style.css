@@ -182,6 +182,10 @@
         min-height: 1350px;
       padding: 60px 16px;
     }
+
+    .hide-on-mobile {
+        display: none;
+    }
   
     .Teirs-inner h1 {
       font-size: 32px;
