@@ -39,7 +39,7 @@ const HWW = () => {
                         <div className={`list-item ${isVisible ? 'animate' : ''}`}>
                             <img alt="hand-visual" src={require(`../../asset/image/picking.png`)} height={50} width={50} />
                             <div>
-                                <h3>Pick Creators</h3>
+                                <h3>Pick a Plan</h3>
                                 <p>Choose a plan best for your brand needs.</p>
                             </div>
                         </div>
