@@ -58,10 +58,10 @@ const Teirs = () => {
                                 <div className='item-lower'>
                                     <span>Monthly performance review</span><br />
                                 </div>
-                                <div className='item-lower'>
+                                <div className='item-lower hide-on-mobile'>
                                     <span></span><br />
                                 </div>
-                                <div className='item-lower'>
+                                <div className='item-lower hide-on-mobile'>
                                     <span></span><br />
                                 </div>
 
@@ -87,10 +87,10 @@ const Teirs = () => {
                                 <div className='item-lower'>
                                     <span>Strategy call + performance report</span><br />
                                 </div>
-                                     <div className='item-lower'>
+                                     <div className='item-lower hide-on-mobile'>
                                     <span></span><br />
                                 </div>
-                                <div className='item-lower'>
+                                <div className='item-lower hide-on-mobile'>
                                     <span></span><br />
                                 </div>
                               
