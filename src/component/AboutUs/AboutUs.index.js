@@ -52,16 +52,15 @@ so you can take care of your business.</p>
                         <div className={`about-list-item ${isVisible ? 'animate' : ''} fadeInUp-animation-2`}>
                         <img style={{margin: 'auto'}} alt='map marker visual' src={require('../../asset/image/maps-and-flags.png')} height={50} width={50} />
                             <h2>Our Approach</h2>
-                            <p>MagmaMinds loves working with creators who have
-family-like followings-- loyal followers with a
-tight-knit community encourage video virality and are of the highest quality
-for driving sales. </p>
+                            <p>MagmaMinds aims to nourish
+family-like followings-- loyal customers create a
+tight-knit community of customers who continue coming back. </p>
                         </div>
                         <div className={`about-list-item ${isVisible ? 'animate' : ''} fadeInUp-animation-3`}>
                         <img style={{margin: 'auto'}} alt='handshake visual' src={require('../../asset/image/handshake.png')}  height={50} width={50} />
                             <h2>Our Standards</h2>
-                            <p>MagmaMinds only works with brands we trust, that means no misleading products
-or advertising, but it also means we are extremely choicey with who we partner.
+                            <p>MagmaMinds only works with brands we trust because we provide only the highest quality
+advertising, which means we are extremely choicey with who we partner.
 If you're a company that is looking for a long-term relationship with first-class support
 and unbeatable standards, we are for you.</p>
                         </div>
