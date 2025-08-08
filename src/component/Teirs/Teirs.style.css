@@ -172,12 +172,12 @@
 
 @media screen and (max-width: 468px) {
     .Teirs {
-        min-height: 2250px;
+        min-height: 1350px;
     }
 }
 @media screen and (max-width: 768px) {
     .Teirs {
-        min-height: 2100px;
+        min-height: 1350px;
       padding: 60px 16px;
     }
   
