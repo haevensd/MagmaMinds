@@ -114,6 +114,8 @@
     position: relative;
     transform: translateX(0);
     animation-duration: 1.95s;
+    
+    justify-content: space-between;
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
 }
