@@ -54,7 +54,7 @@ so you can take care of your business.</p>
                             <h2>Our Approach</h2>
                             <p>MagmaMinds aims to nourish
 family-like followings-- loyal customers create a
-tight-knit community of customers that continue coming back. </p>
+tight-knit community of customers who continue coming back. </p>
                         </div>
                         <div className={`about-list-item ${isVisible ? 'animate' : ''} fadeInUp-animation-3`}>
                         <img style={{margin: 'auto'}} alt='handshake visual' src={require('../../asset/image/handshake.png')}  height={50} width={50} />
