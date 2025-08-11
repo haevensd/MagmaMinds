@@ -40,7 +40,7 @@ const HWW = () => {
                             <img alt="hand-visual" src={require(`../../asset/image/picking.png`)} height={50} width={50} />
                             <div>
                                 <h3>Pick a Plan</h3>
-                                <p>Choose a plan best for your brand needs.</p>
+                                <p>Choose a plan best for your needs.</p>
                             </div>
                         </div>
                         {/* Arrow here, fade-in first (1-2 second delay) */}
