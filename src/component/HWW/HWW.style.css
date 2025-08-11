@@ -145,8 +145,7 @@
             min-height: 1200px !important;
            .intro-call-btn {
                padding: 30px !important;
-               margin-bottom: 0 !important;
-margin-top: 50px;
+               margin-bottom: -50px !important;
                
             }
         }
