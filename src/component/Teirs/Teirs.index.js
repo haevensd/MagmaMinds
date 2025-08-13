@@ -128,7 +128,7 @@ const Teirs = () => {
                                 
                                 <div className='item-price'>
                                     {/* <b>$2850</b> */}
-                                    <b>$1500</b>
+                                    <b>$2000</b>
                                 </div>
                             </div>
                         </div>
